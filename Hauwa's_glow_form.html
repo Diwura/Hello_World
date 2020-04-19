@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Booking form</title>
+    <meta charset='UTF-8'>
+    <style>
+        h1 {
+            color: deeppink;
+            border-bottom: 1px solid deeppink;
+        }
+        
+        legend {
+            font-style: italic;
+            font-family: cursive;
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>WELCOME </h1>
+    <p> Please fill the form below to book an apointment:</p>
+    <form>
+        <fieldset style='border:1px solid coral;'>
+            <legend>hauwasglow</legend>
+            <ul>
+                <li><label> enter your fullname:<input type="text" name='full_name' value='name' maxlength="15"></label></li>
+                <li><label> enter your address: <input type='text' name='location'>
+            </label></li>
+                <li>
+                    <label> Telephone:                                     <input type='tel' name='cell number' placeholder="08011122233" minlength="11" maxlength="11"></label>
+                </li>
+            </ul>
+
+            <p>Skincolor:
+                <input type='text' name='skin' list='types'>
+                <datalist id='types'>
+                    <option value='fair'>
+                        <option value='Choclate'>
+                            <option value='Dark'>
+                            </datalist>
+                <p>
+                    <label>Select from the list below the cosmetic brands you have used recently:
+        </label></p>
+                <ul>
+                    <li> <input type='checkbox' name='product' value='Zaron'> Zaron</li>
+                    <li> <input type='checkbox' name='product' value='Mary Kay'> Mary kay</li>
+                    <li> <input type='checkbox' name='product' value='TERA'> Tera</li>
+                </ul>
+
+                <p>
+                    <label> Which of our make up services would you be intrested in <label> </p> 
+<ol>
+    <li><input type='radio' name='services' value='bridal-glam'> Bridal Glam</li>
+    <li> <input type='radio' name='services'
+        value='regular makeup'> Regular makeup[Nude]</li>
+    <li> <input type ='radio' name='services' value='Elevated look'> Elevated look </li>
+Would you be needing our in-house cosutmes:
+<input type ='radio' name='y' value='yes'>yes or <input type="radio" name='y', value=no> no </ol> </br>
+
+Select a preferred photoshoot scene:
+<select name='photoshoot'>
+<optgroup label='Classic'>
+    <option>Outdoor field</option>
+    <option> In-studio shot</option>
+</optgroup>  
+
+<optgroup label='Fancy'>
+    <option>Seaside</option>
+    <option>Vilage Scene</option>
+    <option> Urban View</option>
+</select><br>
+
+Please schedule a preferred time for your shoot but note that this might not always be availble.<br>
+<input type="datetime-local" name='schedule' value='2020-04-16T12:00:35'> <br>
+
+<p>
+<label for ='picture'>  Send a picture that wil be used as your online icon<em>(optional)</em>:<br>
+    <input type="file" name='image' accept="image"> </label><br>
+
+                    <p><label> Have you done business with us before?, if yes kindly give us a rating of how you feel about our past services were:<br>
+Satisfaction from (1-10):                        
+    <input type='range' min='1' max='10'>
+ </label>
+
+
+
+
+        </fieldset>
+    </form>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
