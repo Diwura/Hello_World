@@ -1,0 +1,31 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "analysis",
+            "dialect": "PostgreSQL",
+            "name": "Localhost",
+            "password": "Pirate1997",
+            "port": 5432,
+            "server": "localhost",
+            "username": "postgres"
+        },
+        {
+            "database": "ap",
+            "dialect": "MySQL",
+            "name": "Diwura's ap database",
+            "password": "Pirate1997",
+            "port": 3306,
+            "server": "localhost",
+            "username": "root"
+        },
+        {
+            "database": "ap",
+            "dialect": "MySQL",
+            "name": "diwura",
+            "password": "Pirate1997",
+            "port": 3306,
+            "server": "localhost",
+            "username": "root"
+        }
+    ]
+}
