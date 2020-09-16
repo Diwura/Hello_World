@@ -7,135 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded" rel="stylesheet">
     <style>
-        @import url('../css_scripts/bakery-styles.css');
-        /* @charset "UTF-8";
-        body {
-            font-family: Georgia, serif;
-            font-size: 100%;
-            background-color: pink;
-        }*/
-        /* 
+        @import url('../css_scripts/bakery-rwd.css');
+
         
-        a:link,
-        a:visited {
-            color: #DC6903;
-            text-decoration: none;
-            border-bottom: 1px dashed;
-            padding-bottom: .-2em
-        }
-        
-        a:focus,
-        a:hover,
-        a:active {
-            color: #F9AB33;
-        }
-   
-        
-        header {
-            color: white;
-            background: url('images/croissants_banner.jpg') no-repeat center center;
-            background-size: cover;
-            text-align: center;
-            height: 15em;
-        }
-        
-        header p {
-            font-style: italic;
-            font-size: 1.2em;
-        }
-        
-        
-        nav,
-        footer {
-            font-family: verdana, sans-serif;
-            background-color: #783F27;
-        }
-        
-        nav ul li a:link,
-        nav ul li a:visited {
-            color: #F9AB33;
-        }
-        
-        nav ul li a:focus,
-        nav ul li a:hover,
-        nav ul li a:active {
-            color: #fff;
-        }
-        
-        nav ul li {
-            font-size: .8em;
-            text-transform: uppercase;
-            letter-spacing: .2em;
-        }
-       
-        
-        main {
-            font-family: 'Stint Ultra Expanded', cursive;
-            background-color: white;
-            line-height: 1.8em;
-            color: #555;
-            padding: 2em;
-            border: double 4px #EADDC4;
-            border-radius: 25px 34px 88px/75px 67px 213px
-        }
-        
-        h3 {
-            text-transform: uppercase;
-            letter-spacing: .2em;
-            color: #7A0002;
-            border-top: 1px solid;
-            border-left: 3px solid;
-            padding: 1em;
-        }
-        
-        p.more {
-            font-family: verdana, sans-serif;
-            text-transform: uppercase;
-            font-size: .8em;
-        }
-       
-        
-        aside {
-            background: url(images/scallop.png) repeat-y left top;
-            background-color: #F6F3ED;
-            padding: 1em;
-            padding-left: 45px;
-            border-top-right-radius: 25px;
-        }
-       
-        
-        footer {
-            color: #EADDC4;
-            text-align: center;
-            font-size: .8em;
-            background-color: brown;
-        }
-        
-        h2 {
-            font-family: 'Stint Ultra Expanded', cursive;
-        }
-        
-        .day {
-            color: #783F27;
-            font-family: verdana, sans-serif;
-            font-size: .8em;
-            text-transform: uppercase;
-        }
-         border 
-        
-        html {
-            box-sizing: border-box;
-        }
-        
-        * {
-            box-sizing: inherit;
-        }
-    </style>
-    */
+  </style>
 </head>
 
 <body>
-
+    <div id='container'>
     <header>
         <nav>
             <ul>
@@ -145,14 +24,14 @@
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
-        <h1><img src="images/bgb_logo.png" alt="Black Goose Bakery"></h1>
+        <h1><img src="../images/bgb_logo.png" alt="Black Goose Bakery"></h1>
         <p>The delicious baked goods you love at Black Goose Bistro...now available to go!</p>
     </header>
 
     <main>
         <h2>Fresh from the Oven</h2>
         <h3>Breads</h3>
-        <p><img src="../images/bread.png" alt="round loaf of bread on cutting board"> Our breads are made daily from highest-quality whole grain flour, water, salt, and yeast or sourdough starter. Simply and naturally, and never any preservatives. Patience
+        <p><img src="../images/bread.png" alt="round loaf of bread on cutting board"> Our breads are made daily from highest-quality <span class='linelength'>whole grain flour, water,</span> salt, and yeast or sourdough starter. Simply and naturally, and never any preservatives. Patience
             is key to achieving the proper level of fermentation and baking each loaf to perfection. Available in whole grain, sourdough, olive loaf, classic rye, and potato-onion.</p>
         <p class="more"> <a href="">Learn more about our baking process...</a> </p>
 
@@ -174,9 +53,10 @@
     </aside>
 
     <footer>
-        <p>All content copyright &copy; 2017, Black Goose Bistro.</p>
+        <p>All content copyright &copy; 2020, Black Goose Bistro.</p>
+        <div id="award"><img src="../images/award.png" alt="farmers_award"></div>
     </footer>
-
+</div>
 </body>
 
 </html>
